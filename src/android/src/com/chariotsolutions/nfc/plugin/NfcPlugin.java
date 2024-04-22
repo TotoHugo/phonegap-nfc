@@ -549,7 +549,7 @@ public class NfcPlugin extends CordovaPlugin implements NfcAdapter.OnNdefPushCom
                 NfcAdapter nfcAdapter = NfcAdapter.getDefaultAdapter(getActivity());
 
                 if (nfcAdapter != null) {
-                    nfcAdapter.setNdefPushMessage(null, getActivity());
+                    //nfcAdapter.setNdefPushMessage(null, getActivity());
                 }
 
             }
